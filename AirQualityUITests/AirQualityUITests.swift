@@ -1,11 +1,3 @@
-//
-//  AirQualityUITests.swift
-//  AirQualityUITests
-//
-//  Created by Alessandro Loi on 27/02/2020.
-//  Copyright © 2020 Alessandro Loi. All rights reserved.
-//
-
 import XCTest
 
 class AirQualityUITests: XCTestCase {

@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983F4605244B249A0037401D /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F4604244B249A0037401D /* Parameter.swift */; };
+		983F4607244B24CD0037401D /* ParametersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F4606244B24CD0037401D /* ParametersService.swift */; };
+		983F4609244B272D0037401D /* ParameterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F4608244B272D0037401D /* ParameterDetailsViewController.swift */; };
+		983F460B244B277B0037401D /* MeasurementsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F460A244B277B0037401D /* MeasurementsNavigator.swift */; };
+		983F460D244B29600037401D /* ParametersFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F460C244B29600037401D /* ParametersFacade.swift */; };
+		983F460F244B29930037401D /* ParameterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F460E244B29930037401D /* ParameterViewModel.swift */; };
+		983F4611244B6B4B0037401D /* ParameterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F4610244B6B4B0037401D /* ParameterSelectionView.swift */; };
+		984C3FB0244C687800A2050A /* ParameterViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FAF244C687800A2050A /* ParameterViewModelTests.swift */; };
+		984C3FB2244C68B000A2050A /* ParameterTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FB1244C68B000A2050A /* ParameterTestData.swift */; };
+		984C3FBA244C7AFD00A2050A /* MockParameterFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FB9244C7AFD00A2050A /* MockParameterFacade.swift */; };
+		9889CCFB244A83D9007C6668 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889CCFA244A83D9007C6668 /* Service.swift */; };
+		9889CCFF244A8711007C6668 /* CountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889CCFE244A8711007C6668 /* CountriesService.swift */; };
+		9889CD01244A8719007C6668 /* MeasurementsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889CD00244A8719007C6668 /* MeasurementsService.swift */; };
+		989F4043244B9113005A03B9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989F4042244B9113005A03B9 /* Resource.swift */; };
+		989F4045244B921C005A03B9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989F4044244B921C005A03B9 /* Response.swift */; };
 		98A855BA2407F00600B5CEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855B92407F00600B5CEAB /* AppDelegate.swift */; };
 		98A855BC2407F00600B5CEAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855BB2407F00600B5CEAB /* SceneDelegate.swift */; };
-		98A855BE2407F00600B5CEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855BD2407F00600B5CEAB /* ViewController.swift */; };
-		98A855C12407F00600B5CEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A855BF2407F00600B5CEAB /* Main.storyboard */; };
 		98A855C32407F00600B5CEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A855C22407F00600B5CEAB /* Assets.xcassets */; };
 		98A855C62407F00600B5CEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A855C42407F00600B5CEAB /* LaunchScreen.storyboard */; };
-		98A855D12407F00600B5CEAB /* AirQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855D02407F00600B5CEAB /* AirQualityTests.swift */; };
 		98A855DC2407F00600B5CEAB /* AirQualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855DB2407F00600B5CEAB /* AirQualityUITests.swift */; };
+		98A855ED2407F02F00B5CEAB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855EC2407F02F00B5CEAB /* Country.swift */; };
+		98A855EF2407F04400B5CEAB /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855EE2407F04400B5CEAB /* Measurement.swift */; };
+		98A855F22407F06A00B5CEAB /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855F12407F06A00B5CEAB /* CountryViewModel.swift */; };
+		98A855F42407F08300B5CEAB /* MeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855F32407F08300B5CEAB /* MeasurementViewModel.swift */; };
+		98A855F72407F0A200B5CEAB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855F62407F0A200B5CEAB /* LoadingView.swift */; };
+		98A855FA2407F0C800B5CEAB /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855F92407F0C800B5CEAB /* CountriesViewController.swift */; };
+		98A855FC2407F0E400B5CEAB /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855FB2407F0E400B5CEAB /* CountryCollectionViewCell.swift */; };
+		98A855FF2407F10F00B5CEAB /* MeasurementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A855FE2407F10F00B5CEAB /* MeasurementsViewController.swift */; };
+		98A856012407F12100B5CEAB /* MeasurementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856002407F12100B5CEAB /* MeasurementTableViewCell.swift */; };
+		98A856032407F13400B5CEAB /* NoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856022407F13400B5CEAB /* NoContentView.swift */; };
+		98A856062407F14B00B5CEAB /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856052407F14B00B5CEAB /* Backend.swift */; };
+		98A8560F2407F1A400B5CEAB /* CountriesFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8560E2407F1A300B5CEAB /* CountriesFacade.swift */; };
+		98A856112407F1BB00B5CEAB /* MeasurementsFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856102407F1BB00B5CEAB /* MeasurementsFacade.swift */; };
+		98A856142407F1DE00B5CEAB /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856132407F1DE00B5CEAB /* NavigationManager.swift */; };
+		98A856162407F1EF00B5CEAB /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856152407F1EF00B5CEAB /* Navigable.swift */; };
+		98A8561A2407F23200B5CEAB /* CountriesNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856192407F23200B5CEAB /* CountriesNavigator.swift */; };
+		98A8561D2407F24F00B5CEAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8561C2407F24F00B5CEAB /* Extensions.swift */; };
+		98A8561F2407F26300B5CEAB /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8561E2407F26300B5CEAB /* ViewConstants.swift */; };
+		98A856212407F42800B5CEAB /* MeasurementTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856202407F42800B5CEAB /* MeasurementTestData.swift */; };
+		98A856232407F53200B5CEAB /* CountryTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856222407F53200B5CEAB /* CountryTestData.swift */; };
+		98A856252407F8DB00B5CEAB /* MeasurementViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856242407F8DB00B5CEAB /* MeasurementViewModelTests.swift */; };
+		98A856272407F8E800B5CEAB /* CountryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856262407F8E800B5CEAB /* CountryViewModelTests.swift */; };
+		98A856292407FC0000B5CEAB /* MockMeasurementsFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A856282407FC0000B5CEAB /* MockMeasurementsFacade.swift */; };
+		98A8562B2407FD0600B5CEAB /* MockCountriesFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8562A2407FD0600B5CEAB /* MockCountriesFacade.swift */; };
+		98A856302407FE5D00B5CEAB /* MockMeasurementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8562F2407FE5D00B5CEAB /* MockMeasurementService.swift */; };
+		98A85632240805D500B5CEAB /* MeasurementsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A85631240805D500B5CEAB /* MeasurementsHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +73,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		983F4604244B249A0037401D /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		983F4606244B24CD0037401D /* ParametersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersService.swift; sourceTree = "<group>"; };
+		983F4608244B272D0037401D /* ParameterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterDetailsViewController.swift; sourceTree = "<group>"; };
+		983F460A244B277B0037401D /* MeasurementsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsNavigator.swift; sourceTree = "<group>"; };
+		983F460C244B29600037401D /* ParametersFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersFacade.swift; sourceTree = "<group>"; };
+		983F460E244B29930037401D /* ParameterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterViewModel.swift; sourceTree = "<group>"; };
+		983F4610244B6B4B0037401D /* ParameterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSelectionView.swift; sourceTree = "<group>"; };
+		984C3FAF244C687800A2050A /* ParameterViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterViewModelTests.swift; sourceTree = "<group>"; };
+		984C3FB1244C68B000A2050A /* ParameterTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterTestData.swift; sourceTree = "<group>"; };
+		984C3FB9244C7AFD00A2050A /* MockParameterFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockParameterFacade.swift; sourceTree = "<group>"; };
+		9889CCFA244A83D9007C6668 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9889CCFE244A8711007C6668 /* CountriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesService.swift; sourceTree = "<group>"; };
+		9889CD00244A8719007C6668 /* MeasurementsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsService.swift; sourceTree = "<group>"; };
+		989F4042244B9113005A03B9 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		989F4044244B921C005A03B9 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		98A855B62407F00600B5CEAB /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A855B92407F00600B5CEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98A855BB2407F00600B5CEAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98A855BD2407F00600B5CEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98A855C02407F00600B5CEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98A855C22407F00600B5CEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98A855C52407F00600B5CEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98A855C72407F00600B5CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A855CC2407F00600B5CEAB /* AirQualityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A855D02407F00600B5CEAB /* AirQualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityTests.swift; sourceTree = "<group>"; };
 		98A855D22407F00600B5CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A855D72407F00600B5CEAB /* AirQualityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A855DB2407F00600B5CEAB /* AirQualityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityUITests.swift; sourceTree = "<group>"; };
 		98A855DD2407F00600B5CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A855EC2407F02F00B5CEAB /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		98A855EE2407F04400B5CEAB /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		98A855F12407F06A00B5CEAB /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		98A855F32407F08300B5CEAB /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewModel.swift; sourceTree = "<group>"; };
+		98A855F62407F0A200B5CEAB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		98A855F92407F0C800B5CEAB /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		98A855FB2407F0E400B5CEAB /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		98A855FE2407F10F00B5CEAB /* MeasurementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsViewController.swift; sourceTree = "<group>"; };
+		98A856002407F12100B5CEAB /* MeasurementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTableViewCell.swift; sourceTree = "<group>"; };
+		98A856022407F13400B5CEAB /* NoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContentView.swift; sourceTree = "<group>"; };
+		98A856052407F14B00B5CEAB /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		98A8560E2407F1A300B5CEAB /* CountriesFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesFacade.swift; sourceTree = "<group>"; };
+		98A856102407F1BB00B5CEAB /* MeasurementsFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsFacade.swift; sourceTree = "<group>"; };
+		98A856132407F1DE00B5CEAB /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		98A856152407F1EF00B5CEAB /* Navigable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
+		98A856192407F23200B5CEAB /* CountriesNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesNavigator.swift; sourceTree = "<group>"; };
+		98A8561C2407F24F00B5CEAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		98A8561E2407F26300B5CEAB /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		98A856202407F42800B5CEAB /* MeasurementTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTestData.swift; sourceTree = "<group>"; };
+		98A856222407F53200B5CEAB /* CountryTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTestData.swift; sourceTree = "<group>"; };
+		98A856242407F8DB00B5CEAB /* MeasurementViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewModelTests.swift; sourceTree = "<group>"; };
+		98A856262407F8E800B5CEAB /* CountryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModelTests.swift; sourceTree = "<group>"; };
+		98A856282407FC0000B5CEAB /* MockMeasurementsFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMeasurementsFacade.swift; sourceTree = "<group>"; };
+		98A8562A2407FD0600B5CEAB /* MockCountriesFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCountriesFacade.swift; sourceTree = "<group>"; };
+		98A8562F2407FE5D00B5CEAB /* MockMeasurementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMeasurementService.swift; sourceTree = "<group>"; };
+		98A85631240805D500B5CEAB /* MeasurementsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +152,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		983F4603244B24850037401D /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				983F4604244B249A0037401D /* Parameter.swift */,
+				983F4606244B24CD0037401D /* ParametersService.swift */,
+				983F460C244B29600037401D /* ParametersFacade.swift */,
+				983F4608244B272D0037401D /* ParameterDetailsViewController.swift */,
+				983F460E244B29930037401D /* ParameterViewModel.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		9889CD02244A8D17007C6668 /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				98A855EE2407F04400B5CEAB /* Measurement.swift */,
+				9889CD00244A8719007C6668 /* MeasurementsService.swift */,
+				98A856102407F1BB00B5CEAB /* MeasurementsFacade.swift */,
+				98A855F32407F08300B5CEAB /* MeasurementViewModel.swift */,
+				98A855FE2407F10F00B5CEAB /* MeasurementsViewController.swift */,
+				98A856002407F12100B5CEAB /* MeasurementTableViewCell.swift */,
+				98A85631240805D500B5CEAB /* MeasurementsHeader.swift */,
+				983F4610244B6B4B0037401D /* ParameterSelectionView.swift */,
+				983F460A244B277B0037401D /* MeasurementsNavigator.swift */,
+			);
+			path = Measurements;
+			sourceTree = "<group>";
+		};
+		9889CD05244A8D7D007C6668 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				98A855EC2407F02F00B5CEAB /* Country.swift */,
+				9889CCFE244A8711007C6668 /* CountriesService.swift */,
+				98A8560E2407F1A300B5CEAB /* CountriesFacade.swift */,
+				98A855F12407F06A00B5CEAB /* CountryViewModel.swift */,
+				98A855F92407F0C800B5CEAB /* CountriesViewController.swift */,
+				98A855FB2407F0E400B5CEAB /* CountryCollectionViewCell.swift */,
+				98A856192407F23200B5CEAB /* CountriesNavigator.swift */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
 		98A855AD2407F00600B5CEAB = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +217,15 @@
 		98A855B82407F00600B5CEAB /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
+				9889CD05244A8D7D007C6668 /* Countries */,
+				9889CD02244A8D17007C6668 /* Measurements */,
+				983F4603244B24850037401D /* Parameters */,
+				98A855F52407F09600B5CEAB /* Views */,
+				98A856042407F13C00B5CEAB /* Network */,
+				98A856122407F1C700B5CEAB /* Navigation */,
+				98A8561B2407F23B00B5CEAB /* Utilities */,
 				98A855B92407F00600B5CEAB /* AppDelegate.swift */,
 				98A855BB2407F00600B5CEAB /* SceneDelegate.swift */,
-				98A855BD2407F00600B5CEAB /* ViewController.swift */,
-				98A855BF2407F00600B5CEAB /* Main.storyboard */,
 				98A855C22407F00600B5CEAB /* Assets.xcassets */,
 				98A855C42407F00600B5CEAB /* LaunchScreen.storyboard */,
 				98A855C72407F00600B5CEAB /* Info.plist */,
@@ -113,8 +236,10 @@
 		98A855CF2407F00600B5CEAB /* AirQualityTests */ = {
 			isa = PBXGroup;
 			children = (
-				98A855D02407F00600B5CEAB /* AirQualityTests.swift */,
 				98A855D22407F00600B5CEAB /* Info.plist */,
+				98A8562E2407FDBD00B5CEAB /* ViewModels */,
+				98A8562D2407FDB300B5CEAB /* Test Data */,
+				98A8562C2407FDA000B5CEAB /* Mock */,
 			);
 			path = AirQualityTests;
 			sourceTree = "<group>";
@@ -126,6 +251,75 @@
 				98A855DD2407F00600B5CEAB /* Info.plist */,
 			);
 			path = AirQualityUITests;
+			sourceTree = "<group>";
+		};
+		98A855F52407F09600B5CEAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98A855F62407F0A200B5CEAB /* LoadingView.swift */,
+				98A856022407F13400B5CEAB /* NoContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98A856042407F13C00B5CEAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98A856052407F14B00B5CEAB /* Backend.swift */,
+				9889CCFA244A83D9007C6668 /* Service.swift */,
+				989F4042244B9113005A03B9 /* Resource.swift */,
+				989F4044244B921C005A03B9 /* Response.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		98A856122407F1C700B5CEAB /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				98A856132407F1DE00B5CEAB /* NavigationManager.swift */,
+				98A856152407F1EF00B5CEAB /* Navigable.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		98A8561B2407F23B00B5CEAB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				98A8561C2407F24F00B5CEAB /* Extensions.swift */,
+				98A8561E2407F26300B5CEAB /* ViewConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		98A8562C2407FDA000B5CEAB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				98A8562A2407FD0600B5CEAB /* MockCountriesFacade.swift */,
+				98A856282407FC0000B5CEAB /* MockMeasurementsFacade.swift */,
+				984C3FB9244C7AFD00A2050A /* MockParameterFacade.swift */,
+				98A8562F2407FE5D00B5CEAB /* MockMeasurementService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		98A8562D2407FDB300B5CEAB /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				98A856202407F42800B5CEAB /* MeasurementTestData.swift */,
+				98A856222407F53200B5CEAB /* CountryTestData.swift */,
+				984C3FB1244C68B000A2050A /* ParameterTestData.swift */,
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		98A8562E2407FDBD00B5CEAB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				98A856242407F8DB00B5CEAB /* MeasurementViewModelTests.swift */,
+				98A856262407F8E800B5CEAB /* CountryViewModelTests.swift */,
+				984C3FAF244C687800A2050A /* ParameterViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +428,6 @@
 			files = (
 				98A855C62407F00600B5CEAB /* LaunchScreen.storyboard in Resources */,
 				98A855C32407F00600B5CEAB /* Assets.xcassets in Resources */,
-				98A855C12407F00600B5CEAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +452,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A855BE2407F00600B5CEAB /* ViewController.swift in Sources */,
+				98A856112407F1BB00B5CEAB /* MeasurementsFacade.swift in Sources */,
+				9889CCFB244A83D9007C6668 /* Service.swift in Sources */,
+				983F4611244B6B4B0037401D /* ParameterSelectionView.swift in Sources */,
+				98A856142407F1DE00B5CEAB /* NavigationManager.swift in Sources */,
+				98A856062407F14B00B5CEAB /* Backend.swift in Sources */,
+				98A8561F2407F26300B5CEAB /* ViewConstants.swift in Sources */,
+				98A855EF2407F04400B5CEAB /* Measurement.swift in Sources */,
+				989F4045244B921C005A03B9 /* Response.swift in Sources */,
+				98A855FA2407F0C800B5CEAB /* CountriesViewController.swift in Sources */,
+				989F4043244B9113005A03B9 /* Resource.swift in Sources */,
 				98A855BA2407F00600B5CEAB /* AppDelegate.swift in Sources */,
+				983F4607244B24CD0037401D /* ParametersService.swift in Sources */,
+				98A855ED2407F02F00B5CEAB /* Country.swift in Sources */,
+				98A855F22407F06A00B5CEAB /* CountryViewModel.swift in Sources */,
+				98A856032407F13400B5CEAB /* NoContentView.swift in Sources */,
+				983F460F244B29930037401D /* ParameterViewModel.swift in Sources */,
 				98A855BC2407F00600B5CEAB /* SceneDelegate.swift in Sources */,
+				98A856162407F1EF00B5CEAB /* Navigable.swift in Sources */,
+				98A855F42407F08300B5CEAB /* MeasurementViewModel.swift in Sources */,
+				983F4609244B272D0037401D /* ParameterDetailsViewController.swift in Sources */,
+				98A8561A2407F23200B5CEAB /* CountriesNavigator.swift in Sources */,
+				98A85632240805D500B5CEAB /* MeasurementsHeader.swift in Sources */,
+				98A8560F2407F1A400B5CEAB /* CountriesFacade.swift in Sources */,
+				9889CD01244A8719007C6668 /* MeasurementsService.swift in Sources */,
+				983F460D244B29600037401D /* ParametersFacade.swift in Sources */,
+				983F4605244B249A0037401D /* Parameter.swift in Sources */,
+				98A8561D2407F24F00B5CEAB /* Extensions.swift in Sources */,
+				983F460B244B277B0037401D /* MeasurementsNavigator.swift in Sources */,
+				98A856012407F12100B5CEAB /* MeasurementTableViewCell.swift in Sources */,
+				98A855F72407F0A200B5CEAB /* LoadingView.swift in Sources */,
+				98A855FF2407F10F00B5CEAB /* MeasurementsViewController.swift in Sources */,
+				9889CCFF244A8711007C6668 /* CountriesService.swift in Sources */,
+				98A855FC2407F0E400B5CEAB /* CountryCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +492,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A855D12407F00600B5CEAB /* AirQualityTests.swift in Sources */,
+				984C3FBA244C7AFD00A2050A /* MockParameterFacade.swift in Sources */,
+				984C3FB0244C687800A2050A /* ParameterViewModelTests.swift in Sources */,
+				98A856232407F53200B5CEAB /* CountryTestData.swift in Sources */,
+				98A856292407FC0000B5CEAB /* MockMeasurementsFacade.swift in Sources */,
+				98A856302407FE5D00B5CEAB /* MockMeasurementService.swift in Sources */,
+				984C3FB2244C68B000A2050A /* ParameterTestData.swift in Sources */,
+				98A8562B2407FD0600B5CEAB /* MockCountriesFacade.swift in Sources */,
+				98A856272407F8E800B5CEAB /* CountryViewModelTests.swift in Sources */,
+				98A856212407F42800B5CEAB /* MeasurementTestData.swift in Sources */,
+				98A856252407F8DB00B5CEAB /* MeasurementViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +529,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98A855BF2407F00600B5CEAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98A855C02407F00600B5CEAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98A855C42407F00600B5CEAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +661,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
 				INFOPLIST_FILE = AirQuality/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +669,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlessandroLoi.AirQuality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +680,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
 				INFOPLIST_FILE = AirQuality/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlessandroLoi.AirQuality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
