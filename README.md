@@ -1,28 +1,26 @@
-# AirQuality
->  iOS Project Example using MVVM 
+# Discover Tonight
+>  iOS App using MVVM
 
->  Gather the latest air measurements from all over the world.
+>  Discover watch to watch tonigh!
 
-![](airQuality.gif)
+![](Movies.gif)
 
 
 
 ## Features
 
-- [x] More than 100 countries 
-- [x] See levels of various air quality parameters
-- [x] Filter you search using various parameters
-- [x] Reali live information thanks to https://openaq.org/
+- [x] Discover movies and TV series. 
+- [x] Read details and ratings.
+- [x] Movies details thanks to https://api.themoviedb.org/
 
-#### 🔨 Technologies: UIKit, MVVM, No Third Party libraries.
+#### 🔨 Technologies: UIKit, MVVM, SDWebImage, SnapshotTesting.
 ####  🚀Platform: 📱iOS
 
 ## Includes
 
-- [x] Unit Test for uses cases and Mock Classes
-- [x] Custom UICollectionView behaviour
-- [x] Dark Mode
-- [x] Modal popup custom presentation
+- [x] Unit Test for uses cases, Snapshot Tests and Mock Classes.
+- [x] Custom UICollectionView behaviour using UICollectionViewCompositionalLayout
+- [x] Usefull reusable extensions and components
 
 ## Requirements
 
