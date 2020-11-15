@@ -1,7 +1,7 @@
 # Discover Tonight
 >  iOS App using MVVM
 
->  Discover watch to watch tonigh!
+>  Discover what to watch tonight!
 
 ![](Movies.gif)
 
