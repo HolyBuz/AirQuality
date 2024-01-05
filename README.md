@@ -29,4 +29,15 @@
  - iOS 13.0+
  - Xcode 11.0+
 
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/HolyBuz/AirQuality
+```
+
+2. Open the project in Xcode.
+
+3. Build and run the app.
+
  ## Thanks for stopping by!
